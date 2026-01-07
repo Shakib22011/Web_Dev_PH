@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        #id1{
+            background-color:green;
+            margin-top:20px;
+        }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Name here" />
+      <br /><br />
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Type password" />
+      <br /><br />
+      <label>Email</label>
+      <input type="email" placeholder="Type email" />
+      <br /><br />
+      <input type="submit" value="submit" />
+      <br /><br />
+      <hr />
+      <!-- Radio Button -->
+      <h3>Choose your favorite programming language:</h3>
+      <label for="html"><input type="radio" id="html" value="html" />Html</label
+      ><br />
+      <label for="css"><input type="radio" id="css" value="css" />Css</label
+      ><br />
+      <label for="js"><input type="radio" id="js" value="js" />Js</label>
+      <br /><br />
+      <hr />
+      <!-- chechbox -->
+      <h3>select your hobby:</h3>
+      <label for="reading"><input type="checkbox" id="reading" />Reading</label
+      ><br />
+      <label for="football"
+        ><input type="checkbox" id="football" />Football</label
+      ><br />
+      <label for="cooking"><input type="checkbox" id="cooking" />Cooking</label
+      ><br />
+      <!-- select dropdown -->
+      <label for="city">Select Your City:</label>
+      <select id="city" name="city">
+        <option value="disabled selected">Select one</option>
+        <option value="dhaka">Dhaka</option>
+        <option value="tangail">Tangail</option>
+        <option value="rajshahi">Rajshahi</option>
+        <option value="boarishal">Borishal</option>
+      </select>
+    </form>
+    <div id="id1">box 1</div>
+    <div id="id1">box 2</div>
+    <div id="id1">box 3</div>
+  </body>
+</html>
