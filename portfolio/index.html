@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=BBH+Bogle&family=Homemade+Apple&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -34,10 +36,10 @@
           </p>
           <div class="hero-left-button">
             <button id="btn">
-              <i class="fa-solid fa-arrow-down"></i>Download CV
+              <i class="fa-solid fa-download"></i>Download CV
             </button>
             <button id="btn">
-              <i class="fa-sharp fa-thin fa-phone"></i>Contact
+              <i class="fa-solid fa-phone"></i>Contact
             </button>
           </div>
         </div>
@@ -198,14 +200,33 @@
           </div>
         </div>
 
-        <div class="button-container"><button id="btn">Download CV</button></div>
+        <div class="button-container"><button id="btn"><i class="fa-solid fa-download"></i>Download CV</button></div>
         
       </section>
 
     </main>
 
     <footer>
-        
+        <section class="footer-section">
+            <div class="connect">
+                <h2>Lets Connect</h2>
+                <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+                <img src="images/icons/facebook.png">
+                <img src="images/icons/twitter.png">
+                <img src="images/icons/insta.png">
+            </div>
+
+            <div class="form">
+                <form>
+                <h2>Let’s Message me</h2>
+                <input type="text" placeholder="Your name"><br>
+                <input type="email" placeholder="Your email"><br>
+                <textarea rows="10" placeholder="Message"></textarea><br>
+                <input id="btn" type="submit" value="submit">
+                </form>
+                </div>
+            </div>
+        </section>
     </footer>
   </body>
 </html>
