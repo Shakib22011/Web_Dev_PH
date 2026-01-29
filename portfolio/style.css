@@ -16,13 +16,16 @@ body {
   border: none;
   border-radius: 5px;
   font-size: 20px;
+  i{
+    margin-right:8px;
+  }
 }
 
 header {
   background-color: #fff8f3;
   background: url("images/developer.png"), url("images/header_bg.png"), #fff8f3;
   background-repeat: no-repeat;
-  background-position: top left, bottom right;
+  background-position: 23px 38px, bottom right;
 }
 nav {
   padding-top: 50px;
@@ -96,7 +99,7 @@ nav {
   margin: 130px auto;
 }
 
-/* shared */
+
 .about-top {
   h2 {
     text-align: center;
@@ -171,4 +174,93 @@ nav {
       }
     }
   }
+}
+
+/* resume-section */
+#resume-section{
+  width:71%;
+  margin:130px auto;
+  h2{
+    text-align:center;
+    font-size:35px;
+    font-weight:bold;
+    margin-bottom:113px;
+  }
+  .resume-contents{
+    display:flex;
+    gap:24px;
+    justify-content:space-between;
+    h3{
+      font-size:30px;
+      margin-bottom:30px;
+      font-weight:bold;
+      color:rgb(32, 31, 31);
+    }
+    .card{
+      max-width:511px;
+      h4{
+        margin-top:30px;
+        font-size:25px;
+        font-weight:bold;
+        color:rgb(32, 31, 31);
+        margin-bottom:10px;
+      }
+      h5{
+        font-size:20px;
+        font-weight:600;
+        margin-bottom:20px;
+        color:#757575;
+      }
+      p{
+        font-size:16px;
+        color:#757575;
+        line-height:28px;
+        margin-bottom:30px;
+      }
+    }
+  }
+  .button-container{
+    text-align:center;
+  }
+}
+
+/* footer */
+footer{
+  background-color:#FFF8F3;
+  padding:130px 0px;
+  .footer-section{
+    width:71%;
+    margin:0 auto;
+    display:flex;
+    gap:116px;
+    h2{
+      font-size:35px;
+      font-weight:bold;
+      margin-bottom:30px;
+    }
+    .connect{
+      max-width:562px;
+      p{
+        font-size:16px;
+        line-height:28px;
+        margin-bottom:30px;
+        color:#757575;
+      }
+      img{
+        margin-right:24px;
+      }
+    }
+
+    .form{
+      input[type="text"], input[type="email"], textarea{
+        width:461px;
+        padding:18px 31px;
+        margin-bottom:24px;
+        border:none;
+        border-radius:5px;
+      }
+     
+    }
+  }
+
 }
