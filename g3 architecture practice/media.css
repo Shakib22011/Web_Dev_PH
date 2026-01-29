@@ -1,0 +1,10 @@
+@media screen and (max-width:576px){
+    .navbar, .navbar ul,
+    .features{
+        flex-direction:column;
+        gap:20px;
+    }
+    .features .images{
+        grid-template-columns:repeat(1,1fr);
+    }
+}

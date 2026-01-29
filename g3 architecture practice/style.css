@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&family=Homemade+Apple&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+/* shared */
+/* flex-property */
+.display-flex{
+  display:flex;
+}
+
+/* max-size */
+.max-size{
+  max-width:1440px;
+  margin:0 auto;
+}
+
+/* color */
+.gray{
+  color:#424242;
+}
+.light-gray{
+  color:#727272;
+}
+
+/* btn */
+.btn{
+  font-size:1.25rem;
+  color:white;
+  padding:20px 25px;
+  background-color:#FF900E;
+  border-radius:8px;
+  border:none;
+  margin-bottom:3.2rem;
+
+}
+/* shared ends here */
+
+/* navbar */
+.navbar{
+  justify-content:space-between;
+  align-items:center;
+}
+.navbar h2{
+  font-weight:700;
+  font-size:2.82rem;
+  padding:3.2rem;
+}
+.navbar ul{
+  gap:2.5rem;
+}
+.navbar li{
+  list-style:none;
+  /* margin-right:40px; */
+}
+.navbar li a{
+  text-decoration:none;
+  color:#424242;
+  font-size:1.125rem;
+  font-weight:500;
+}
+
+/* banner area */
+.banner{
+  text-align:center;
+}
+.banner-content{
+  max-width:862px;
+  margin:0 auto;
+}
+.banner-content h1{
+  font-size:4rem;
+  font-weight:700;
+  margin-bottom:1.25rem;
+}
+.banner-content p{
+  font-size:1rem;
+  margin-bottom:2rem;
+}
+.banner-image img{
+  width:100%;
+  margin-bottom:2.813rem;
+}
+
+/* fuatures section  */
+.features{
+  padding: 0 3.75rem;
+  margin-top:5.32rem;
+  gap:8.125rem;
+  align-items:center;
+}
+.features .images{
+  display:grid;
+  grid-template-columns:repeat(2 , 1fr);
+  gap:1.5rem;
+  border-radius:8px;
+}
+.features .contents{
+  max-width:537px;
+}
+.features .contents h2{
+  font-size:2.813rem;
+  margin-bottom:1.5rem;
+}
+.span1{
+  font-weight:700;
+  color:black
+}
+.span2{
+  font-weight:700;
+  color:#FF900E;
+}
+.features .contents p{
+  font-size:1rem;
+  line-height:1.625rem;
+  margin-bottom:2rem;
+}
