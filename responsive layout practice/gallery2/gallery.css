@@ -1,0 +1,20 @@
+body{
+    max-width:1600px;
+    margin:100px auto;
+}
+.container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(3, 150px) 50px 50px;
+    gap:10px;
+    div{
+            background-color:green;
+            padding:10px;
+    }
+}
+.sidebar{
+    grid-row:span 5;
+}
+.footer{
+    grid-column:span 3;
+}
