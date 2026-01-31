@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&family=Homemade+Apple&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=BBH+Bogle&family=Homemade+Apple&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 .open-sans {
   font-family: "Open Sans", sans-serif;
@@ -6,166 +6,209 @@
   font-weight: 400;
   font-style: normal;
 }
-*{
-  margin:0px;
-  padding:0px;
-  box-sizing:border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 /* shared */
 /* flex-property */
-.display-flex{
-  display:flex;
+.display-flex {
+  display: flex;
 }
 
 /* max-size */
-.max-size{
-  max-width:1440px;
-  margin:0 auto;
+.max-size {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 /* color */
-.gray{
-  color:#424242;
+.gray {
+  color: #424242;
 }
-.light-gray{
-  color:#727272;
+.light-gray {
+  color: #727272;
 }
 
 /* btn */
-.btn{
-  font-size:1.25rem;
-  color:white;
-  padding:20px 25px;
-  background-color:#FF900E;
-  border-radius:8px;
-  border:none;
-  margin-bottom:3.2rem;
-
+.btn {
+  font-size: 1.25rem;
+  color: white;
+  padding: 20px 25px;
+  background-color: #ff900e;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 3.2rem;
 }
 /* shared ends here */
 
 /* navbar */
-.navbar{
-  justify-content:space-between;
-  align-items:center;
+.navbar {
+  justify-content: space-between;
+  align-items: center;
 }
-.navbar h2{
-  font-weight:700;
-  font-size:2.82rem;
-  padding:3.2rem;
+.navbar h2 {
+  font-weight: 700;
+  font-size: 2.82rem;
+  padding: 3.2rem;
 }
-.navbar ul{
-  gap:2.5rem;
+.navbar ul {
+  gap: 2.5rem;
 }
-.navbar li{
-  list-style:none;
+.navbar li {
+  list-style: none;
   /* margin-right:40px; */
 }
-.navbar li a{
-  text-decoration:none;
-  color:#424242;
-  font-size:1.125rem;
-  font-weight:500;
+.navbar li a {
+  text-decoration: none;
+  color: #424242;
+  font-size: 1.125rem;
+  font-weight: 500;
 }
 
 /* banner area */
-.banner{
-  text-align:center;
+.banner {
+  text-align: center;
 }
-.banner-content{
-  max-width:862px;
-  margin:0 auto;
+.banner-content {
+  max-width: 862px;
+  margin: 0 auto;
 }
-.banner-content h1{
-  font-size:4rem;
-  font-weight:700;
-  margin-bottom:1.25rem;
+.banner-content h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
 }
-.banner-content p{
-  font-size:1rem;
-  margin-bottom:2rem;
+.banner-content p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
 }
-.banner-image img{
-  width:100%;
-  margin-bottom:2.813rem;
+.banner-image img {
+  width: 100%;
+  margin-bottom: 2.813rem;
 }
 
 /* fuatures section  */
-.features{
+.features {
   padding: 0 3.75rem;
-  margin-top:5.32rem;
-  gap:8.125rem;
-  align-items:center;
-  margin-bottom:8.125rem;
+  margin-top: 5.32rem;
+  gap: 8.125rem;
+  align-items: center;
+  margin-bottom: 8.125rem;
 }
-.features .images{
-  display:grid;
-  grid-template-columns:repeat(2 , 1fr);
-  gap:1.5rem;
-  border-radius:8px;
+.features .images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  border-radius: 8px;
 }
-.features .contents{
-  max-width:537px;
+.features .contents {
+  max-width: 537px;
 }
-.features .contents h2{
-  font-size:2.813rem;
-  margin-bottom:1.5rem;
+.features .contents h2 {
+  font-size: 2.813rem;
+  margin-bottom: 1.5rem;
 }
-.span1{
-  font-weight:700;
-  color:black
+.span1 {
+  font-weight: 700;
+  color: black;
 }
-.span2{
-  font-weight:700;
-  color:#FF900E;
+.span2 {
+  font-weight: 700;
+  color: #ff900e;
 }
-.features .contents p{
-  font-size:1rem;
-  line-height:1.625rem;
-  margin-bottom:2rem;
+.features .contents p {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  margin-bottom: 2rem;
 }
 
 /* enjoy section */
-.enjoy{
-  gap:8.75rem;
-  align-items:center;
-  margin-bottom:10.5rem;
+.enjoy {
+  gap: 8.75rem;
+  align-items: center;
+  margin-bottom: 10.5rem;
 }
-.enjoy .contents h2{
-  font-size:2.813rem;
-  border-left:5px solid #FF900E;
-  padding-left:1.5rem;
-  margin-bottom:1.5rem;
-  font-weight:700;
+.enjoy .contents h2 {
+  font-size: 2.813rem;
+  border-left: 5px solid #ff900e;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
 }
-.enjoy .contents p{
-  font-size:1rem;
-  line-height:1.56rem;
-  margin-bottom:30px
+.enjoy .contents p {
+  font-size: 1rem;
+  line-height: 1.56rem;
+  margin-bottom: 30px;
 }
-.enjoy .card-section .card1{
-  padding:1.875rem 2.625rem 1.875rem 2.063rem;
-  border-radius:8px;
-  margin-bottom:1.625rem;
-  box-shadow:0px 4px 30px 0px rgba(0, 0, 0, 0.06);
-  h4{
-    font-size:1.25rem;
-    font-weight:600;
-    margin-bottom:0.625rem;
+.enjoy .card-section .card1 {
+  padding: 1.875rem 2.625rem 1.875rem 2.063rem;
+  border-radius: 8px;
+  margin-bottom: 1.625rem;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.625rem;
   }
-  p{
-    font-size:1rem;
+  p {
+    font-size: 1rem;
   }
 }
-.enjoy .enjoy-image button{
-  padding:2.625rem  2.875rem;
-  border-radius:8px;
-  span{
-    font-size:4.064rem;
-    font-weight:700;
-    line-height:4.375rem;
+.enjoy-image {
+  position: relative;
+}
+.enjoy-image button {
+  padding: 2.625rem 2.875rem;
+  border-radius: 8px;
+  position: absolute;
+  top: 850px;
+  left: -100px;
+  span {
+    font-size: 4.064rem;
+    font-weight: 700;
+    line-height: 4.375rem;
   }
-  margin-top:-1000px;
-  margin-left:-54px;
+}
+/* fact section */
+.fact-content h2 {
+  font-size: 2.813rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.fact-content p {
+  font-size: 1rem;
+  line-height: 1.63rem;
+  max-width: 33.8rem;
+  margin-bottom: 6.25rem;
+}
+.fact-section .card-section {
+  justify-content:space-between;
+  padding:70px;
+  margin-bottom: 11.25rem;
+}
+.fact-section .card-section .card2 {
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  padding: 2.8rem 2.18rem 3.75rem 2.18rem;
+  width:15rem;
+}
+.fact-section .card-section .card2 img {
+  display: block;
+  margin: 0 auto;
+}
+.fact-section .card-section .card2 h2 {
+  margin-top: 0.6rem;
+  font-size: 2.8rem;
+  font-weight: 600;
+  text-align:center;
+}
+.fact-section .card-section .card2 p {
+  margin-top: 0.9rem;
+  font-size: 1.25rem;
+  color: #424242;
+  font-weight: 600;
+  margin: 0 auto;
 }
