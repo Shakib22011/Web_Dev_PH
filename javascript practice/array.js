@@ -21,7 +21,7 @@ console.log(mixed.includes('two'));
 console.log(mixed.indexOf(3));
 console.log(Array.isArray(name));
 console.log(mixed.concat(name));
-console.log(mixed);
+//console.log(mixed);
 
 const num=[1, 2, 3, 4, 5];
 const rev=[];
@@ -51,3 +51,20 @@ for(let i=split.length-1;i>=0;i--){
     reverse+=split[i]+" ";
 }
 console.log(reverse);
+
+
+
+const heights2 = [167, 190, 120, 165, 137];
+console.log(Math.min(...heights2));
+
+
+const heights = ['rahim', 'robin', 'rafi', 'ron', 'rashed'];
+let smallest=heights[0];
+for(let height of heights){
+    if(smallest.length> height.length){
+        smallest=height;
+    }
+}
+console.log(smallest);
+
+console.log(typeof null);
