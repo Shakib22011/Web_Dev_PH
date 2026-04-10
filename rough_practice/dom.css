@@ -1,0 +1,11 @@
+.red{
+    background-color:orange;
+}
+
+.comment{
+    background-color:lightblue;
+    border:2px solid black;
+    border-radius:10px;
+    padding:10px;
+    margin:10px;
+}

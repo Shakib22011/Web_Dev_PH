@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dom.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- direct occurance of events -->
+    <button onclick="console.log(7)">click me</button><br /><br />
+
+    <!-- calling function of specific action on click -->
+    <button onclick="bgYellow()">Make your background yellow</button
+    ><br /><br />
+
+    <!-- add event to the specific id -->
+    <button id="reset_bg">Reset the background</button><br /><br />
+
+    <!-- add eventlistener -->
+    <button id="green_bg">Green Background</button>
+
+    <!-- change element text using evenlistener -->
+    <h1 id="text_element">This is the initial text.</h1>
+    <button id="element_change">change teh text</button>
+
+    <!-- handle input text -->
+    <h4 id="input-text">Unknown user</h4>
+    <input type="text" id="name" placeholder="Enter your name" />
+    <button id="username">change the username</button>
+
+    <!-- comment post -->
+    <div id="container-box">
+      <p class="comment">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+        nisi.
+      </p>
+      <br />
+      
+    </div>
+    <textarea name="" id="text" rows="10" cols="50"></textarea><br /><br />
+      <button id="post">post comment</button><br><br>
+
+
+      <!-- delete enabled in conditions -->
+       <input type="text" id="input" placeholder="your name">
+       <button id="delete" disabled>delete</button>
+    <script src="dom.js"></script>
+  </body>
+</html>

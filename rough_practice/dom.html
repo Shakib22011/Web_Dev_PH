@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="dom.css" />
+    <style>
+     
+    </style>
+  </head>
+  <body>
+    <div class="list" id="list1">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, dolorem.</p>
+      <ul>
+        <li id="id1">Item 1</li>
+        <li id="id1">Item 2</li>
+        <li id="id2">Item 3</li>
+      </ul>
+    </div>
+
+    <script>
+      console.log(document.getElementById('list1').childNodes[0].parentNode);
+      //   concole.log(document);
+      const listItem = document.getElementsByTagName("li");
+      for (let li of listItem) {
+        console.log(li.innerText);
+      }
+      const food = document.getElementById("id1");
+      console.log(food.innerText);
+      document.getElementById("id1").innerText = "Pizza";
+      food.innerText = "Burger";
+      console.log(document.querySelector("#id1"));
+      console.log(document.querySelectorAll(".list #id1"));
+
+      // add css in js
+      const item = document.getElementById("id2");
+      console.log(item.innerText);
+      item.style.color = "red";
+      // item.style.backgroundColor = "green";
+      // item.style.borderRadius = "10px";
+
+      item.classList.add("red");
+      console.log(item.getAttribute('id'));
+      item.setAttribute('title', 'This is item 3');
+
+      // add new element an dhtml
+      //const mainContainer=document.getElementById('list1'); //parent
+      const mainContainer = document.body;
+      const newElement=document.createElement('section');
+      newElement.innerHTML=`
+      <h1>new section</h1>
+      <p>al;skdfj alkfja fdlaksjfa sdfs</p>`
+      mainContainer.appendChild(newElement);
+    </script>
+  </body>
+</html>
