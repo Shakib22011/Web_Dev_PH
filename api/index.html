@@ -4,12 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #post-container{
+            max-width:90%;
+            margin:40px auto;
+            display:grid;
+            grid-template-columns:repeat(4,1fr);
+            column-gap:20px;
+            row-gap:30px;
+        }
+        .post{
+            border:1px solid gray ;
+            border-radius:10px;
+            padding:10px;
+            min-height:100%;
+            text-align:justify;
+            box-shadow:2px 2px gray;
+        }
+    </style>
 </head>
 <body>
     <button onclick="loadjson()">load json</button>
     <button onclick="loadpost()">load post</button>
 
-    <ul id="post-title"></ul>
+    <!-- <ol id="post-title"></ol> -->
+     <div id="post-container">
+       
+     </div>
     
     <script src="api.js"></script>
 </body>
